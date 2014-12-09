@@ -1,0 +1,103 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   CUSTOM CSS
+   ========================================================================== */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#CFD6D7;
+}
+
+h1{
+	font-family: 'adam.cg_proregular';
+}
+
+h2{
+	font-family: 'neouthin';
+}
+
+#mainHero h1{
+	display: inline-block;
+	position: absolute;
+	z-index: 100;
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-right: auto;
+	color:#272b2c;
+	-webkit-font-smoothing: antialiased;
+}
+
+#mainHero h1 strong{
+	color:#FFFAF6;
+	text-shadow: 3px 3px 3px #949FA0;
+	-webkit-font-smoothing: antialiased;
+	font-size: 125%;
+}
+
+#subHero h2{
+	display: inline-block;
+	position: absolute;
+	z-index: 200;
+	margin-top: 26%;
+	margin-left: 45%;
+	margin-right: auto;
+	color: #B9D9BD;
+	-webkit-font-smoothing: antialiased;
+	font-size: 35%;
+	text-align: right;
+	text-shadow: 0px 1px 1px #272b2c;
+}
+
+#heroButton h2{
+	display: inline-block;
+	position: absolute;
+	z-index: 200;
+	margin-top: 29%;
+	margin-left: 53%;
+	margin-right: auto;
+	color: #FFC7C4;
+	font-size: 50%;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px #f3443b;
+	font-family: 'neouthin';
+	transition: all 0.2s ease-in-out;
+}
+
+#heroButton h2:hover{
+		font-size: 55%;
+		color: #f3443b;
+		text-shadow: 1px 1px 1px #FFC7C4;
+}
+
+canvas{
+	display:block;
+	vertical-align:bottom;
+}
+
+#particleBG{
+	width:100%;
+	height:100%;
+	display:block;
+	z-index:0;
+}
+
